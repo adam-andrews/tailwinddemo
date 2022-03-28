@@ -1,9 +1,9 @@
-
+import Card from "./components/Card";
 
 function App() {
   return (
-    <div className="p-12 bg-black">
-      Hello
+    <div className="flex justify-center w-full bg-black">
+      <Card/><Card/>
     </div>
   );
 }
